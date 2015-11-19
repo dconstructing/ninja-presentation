@@ -1,6 +1,16 @@
-Polymer('ninja-slide', {
-    align: 'inherit',
-    background: 'nothing',
-    font: '',
-    color: ''
+Polymer({
+    is: 'ninja-slide',
+
+    properties: {
+        align: {
+            type: String,
+            value: 'inherit'
+        },
+        background: {
+            type: String,
+            value: 'nothing'
+        },
+        font: String,
+        color: String
+    }
 });
