@@ -115,22 +115,6 @@ Polymer({
     is: 'ninja-presentation',
 
     properties: {
-        background: {
-            type: String,
-            value: '#BDC3C7'
-        },
-        font: {
-            type: String,
-            value: 'sans-serif'
-        },
-        align: {
-            type: String,
-            value: 'left'
-        },
-        color: {
-            type: String,
-            value: '#34495E'
-        }
     },
 
     created: function () {
